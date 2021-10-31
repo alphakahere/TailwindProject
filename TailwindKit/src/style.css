@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply px-4 py-3 uppercase text-white font-semibold rounded text-sm shadow outline-none mr-3 mb-3 ease-linear duration-200  hover:shadow-none focus:outline-none
+}
+
+.divIcon {
+    @apply bg-white w-12 h-12 flex justify-center items-center rounded-full;
+}
+
+.serviceBtn {
+    @apply bg-white uppercase px-2 text-xs font-semibold flex items-center justify-center rounded-xl mr-2 mb-3;
+}
+
+.card {
+    @apply mb-10 w-full rounded-lg px-7 py-5 flex flex-col justify-center items-center;
+}
+
+.card-img {
+    @apply w-full flex justify-center;
+}
+
+.cardImg {
+    @apply rounded-full w-16 h-16;
+}
+
+.card-body {
+    @apply flex flex-col justify-center items-center;
+}
+
+.card-title {
+    @apply text-white font-semibold pt-4 pb-2 text-lg;
+}
+
+.card-text {
+    @apply text-center text-white opacity-80;
+}

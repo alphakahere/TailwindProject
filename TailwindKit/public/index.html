@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Presentation | Tailwind css</title>
+		<link rel="stylesheet" href="tailwind.css" />
+		<script
+			src="https://kit.fontawesome.com/e4530581f4.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body class="textblueGray-600 overflow-x-hidden">
+		<div class="container">
+			<nav
+				class="
+					fixed
+					top-0
+					px-10
+					py-5
+					w-full
+					lg:flex
+					justify-between
+					xl:px-40
+					lg:px-20	
+					2xl:px-64
+					bg-white
+					z-50
+				"
+			>
+				<div
+					class="
+						flex
+						items-center
+						justify-between
+						w-full
+						lg:w-2/3
+					"
+				>
+					<h1 class="text-sm uppercase font-bold">
+						Tailwind starter kit
+					</h1>
+					<button
+						class="flex md:flex-1 justify-end lg:hidden"
+						id="burger"
+					>
+						<i class="fas fa-bars"></i>
+					</button>
+				</div>
+				<div class="w-full hidden lg:block" id="menu">
+					<ul
+						class="
+							pl-3
+							pt-1
+							lg:flex
+							justify-evenly
+							w-full
+						"
+					>
+						<li class="flex items-center pt-3 lg:pr-5">
+							<a href="#" class="flex items-center">
+								<i
+									class="
+										fab
+										fa-facebook-square
+										text-base
+										font-bold
+										text-gray-400
+										leading-3
+										mr-2
+									"
+								></i>
+								<span
+									class="
+										text-sm
+										font-bold
+										uppercase
+										leading-none
+									"
+									>Share</span
+								>
+							</a>
+						</li>
+						<li class="flex items-center pt-3">
+							<a href="#" class="flex items-center">
+								<i
+									class="
+										fab
+										fa-twitter
+										text-base
+										font-bold
+										text-gray-400
+										leading-3
+										mr-2
+									"
+								></i>
+								<span
+									class="
+										text-sm
+										font-bold
+										uppercase
+										leading-none
+									"
+									>Tweet</span
+								>
+							</a>
+						</li>
+						<li class="flex items-center pt-3">
+							<a href="#" class="flex items-center">
+								<i
+									class="
+										far
+										fa-file-alt
+										text-base
+										font-bold
+										text-gray-400
+										leading-3
+										mr-2
+									"
+								></i>
+								<span
+									class="
+										text-sm
+										font-bold
+										uppercase
+										leading-none
+									"
+									>Docs</span
+								>
+							</a>
+						</li>
+						<li class="flex items-center pt-3">
+							<a href="#" class="flex items-center">
+								<i
+									class="
+										fas
+										fa-arrow-circle-down
+										text-base
+										font-bold
+										text-gray-400
+										leading-3
+										mr-2
+									"
+								></i>
+								<span
+									class="
+										text-sm
+										font-bold
+										uppercase
+										leading-none
+									"
+									>Download</span
+								>
+							</a>
+						</li>
+						<li class="flex items-center pt-3">
+							<a href="#" class="flex items-center">
+								<i
+									class="
+										fab
+										fa-sketch
+										text-base
+										font-bold
+										text-gray-400
+										leading-3
+										mr-2
+									"
+								></i>
+								<span
+									class="
+										text-sm
+										font-bold
+										uppercase
+										leading-none
+									"
+									>Download designer</span
+								>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div class="bg-gray-50">
+			<div class="flex pb-5">
+				<div
+					class="
+						pt-48
+						pl-4
+						md:pl-8
+						lg:pl-24
+						xl:pl-30
+						2xl:pl-72 2xl:w-2/3
+					"
+				>
+					<h1
+						class="
+							font-semibold
+							text-3xl text-blueGray-500
+						"
+					>
+						A beautiful extension for TailwindCSS.
+					</h1>
+					<p class="w-full text-gray-500 text-lg">
+						Tailwind Starter Kit is Free and Open
+						Source. It does not change or add any CSS to
+						the already one from TailwindCSS. It
+						features multiple HTML elements and it comes
+						with dynamic components for ReactJS, Vue and
+						Angular.
+					</p>
+					<div class="mt-7">
+						<button
+							class="
+								bg-pink-500
+								hover:bg-pink-600
+								btn
+							"
+						>
+							Get started
+						</button>
+						<button
+							class="
+								btn
+								bg-blueGray-500
+								hover:bg-blueGray-600
+							"
+						>
+							github start
+						</button>
+					</div>
+				</div>
+				<div class="">
+					<img
+						src="../images/ill_header_3.png"
+						alt=""
+						class="2xl:max-h-screen max-h-100"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<section class="pb-40 relative bg-gray-100 pt-10">
+			<div class="px-20 flex flex-col md:flex-row justify-between md:px-auto 2xl:px-72">
+				<div class="py-10">
+					<div class="flex justify-center">
+						<div class="border-1 border-pink-600 border w-4/5 rounded-lg md:w-4/3 2xl:w-3/5">
+							<div class="">
+								<img
+									src="../images/photo-1498050108023-c5249f4df085"
+									alt="img"
+									class="w-full"
+								/>
+							</div>
+							<div class="py-10 bg-pink-600 text-white px-6">
+								<h1 class="font-semibold text-xl">Great for your awesome project</h1>
+								<p class="mt-2 text-lg">
+									Putting together a page has never been
+									easier than matching together pre-made
+									components. From landing pages
+									presentation to login areas, you can
+									easily customise and built your pages.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="md:w-full">
+					<div class="flex flex-col items-center md:flex-row justify-between">
+						<div class="flex flex-wrap md:w-2/5">
+							<div class="flex flex-col">
+								<div class="divIcon">
+									<i class="fas fa-sitemap text-gray-400 font-bold"></i>
+								</div>
+								<div class="py-4">
+									<h1 class="font-semibold text-xl">CSS Components</h1>
+									<p class="text-gray-500 text-lg mb-1">
+										Tailwind Starter Kit comes with a huge
+										number of Fully Coded CSS components.
+									</p>
+								</div>
+							</div>
+							<div class="flex flex-col">
+								<div class="divIcon">
+									<i class="fas fa-drafting-compass text-gray-400 font-bold"></i>
+								</div>
+								<div class="py-4">
+									<h1 class="font-semibold text-xl">JavaScript Components</h1>
+									<p class="text-gray-500 text-lg mb-1">
+										We also feature many dynamic components for React, Vue and Angular.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-wrap md:w-2/5">
+							<div class="flex flex-col">
+								<div class="divIcon">
+									<i class="fas fa-newspaper text-gray-400 font-bold"></i>
+								</div>
+								<div class="py-4">
+									<h1 class="font-semibold text-xl">Pages</h1>
+									<p class="text-gray-500 text-lg mb-1">
+										This extension also comes with 3 sample pages. 
+										They are fully coded so you can start working instantly.
+									</p>
+								</div>
+							</div>
+							<div class="flex flex-col">
+								<div class="divIcon">
+									<i class="fas fa-file-alt text-gray-400 font-bold"></i>
+								</div>
+								<div class="py-4">
+									<h1 class="font-semibold text-xl mb-1">Documentation</h1>
+									<p class="text-gray-500 text-lg">
+										Built by developers for developers. You will love how easy 
+										is to to work with Tailwind Starter Kit.
+								</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="px-10 sm:px-20 mt-40 md:flex justify-between md:px-10 lg:px-30 2xl:pl-80">
+				<div class="mb-16 md:w-1/2 mr-8 lg:w-4/5 lg:mr-16 2xl:w-full">
+					<div class="bg-white w-16 h-16 rounded-full flex justify-center items-center mb-10">
+						<i class="fas fa-sitemap text-gray-400 font-bold"></i>
+					</div>
+					<div class="flex flex-col">
+						<h1 class="text-2xl font-semibold">CSS Components</h1>
+						<p class="text-lg text-gray-500 my-4">
+							Every element that you need in a product comes built in as a component. 
+							All components fit perfectly with each other and can have different colours.
+						</p>
+						<div class="flex flex-wrap text-gray-500 ">
+							<button class="serviceBtn">buttons</button>
+							<button class="serviceBtn">inputs</button>
+							<button class="serviceBtn">Labels</button>
+							<button class="serviceBtn">menus</button>
+							<button class="serviceBtn">navbars</button>
+							<button class="serviceBtn">pagination</button>
+							<button class="serviceBtn">Progressbar</button>
+							<button class="serviceBtn">Typography</button>
+						</div>
+						<div>
+							<a href="#" class="flex flex-row items-center">
+								<span class="font-semibold">View All</span>
+								<i class="fa fa-angle-double-right ml-1"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div  style="min-height: 450px;" class="container">
+					<div class="relative w-full flex flex-col" >
+						<img 
+							src="../images/component-info-card.png" alt="" 
+							class="w-full rounded-lg absolute top-0 left-2"
+							style="max-width: 210px;"
+						>
+						<img 
+							src="../images/component-btn.png" alt="" 
+							class="w-full rounded absolute align-middle z-99"
+							style="max-width: 100px; top: 230px; left: 135px;"
+						>
+						<img 
+							src="../images/component-profile-card.png" alt=""
+							class="w-full absolute  top-20 rounded-lg"
+							style="max-width: 210px; left: 280px;"
+						>
+						<img 
+							src="../images/component-btn-pink.png" alt=""
+							class="w-full rounded absolute"
+							style="max-width: 100px; left: 230px ; top: 330px;"
+						>
+						<img 
+							src="../images/component-info-2.png" alt=""
+							class="w-full rounded-lg absolute"
+							style="max-width: 210px; left: 0; top: 300px"
+						>
+						<img 
+							src="../images/component-menu.png" alt=""
+							class="w-full align-middle rounded absolute shadow-lg"
+							style="max-width: 580px; top: 490px;"
+						>
+					</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="services mt-36 md:mt-44">
+				<div class="flex flex-col px-14 md:flex-row md:justify-between  md:px-12 w-full lg:px-20 2xl:pr-36 2xl:pl-52 items-center">
+					<div class="flex flex-col justify-center items-center  2xl:w-3/5 2xl:mr-32 lg:flex-row">
+						<div class="flex flex-col justify-center items-center ">
+							<div class="bg-blue-69 card md:w-4/5">
+								<div class="card-img">
+									<img src="../images/react.jpg" alt="" class="cardImg">
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">ReactJS</h1>
+									<p class="card-text">
+										A JavaScript library for building user interfaces maintaned by Facebook and community of developers.
+									</p>
+								</div>
+							</div>
+							<div class="bg-green-perso card md:w-4/5">
+								<div class="card-img">
+									<img src="../images/vue.jpg" alt="" class="cardImg">
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Vue.JS</h1>
+									<p class="card-text">
+										An open-source Model–view–viewmodel JavaScript framework for building user interfaces.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-col justify-center items-center lg:mt-24">
+							<div class="bg-orange-500 card md:w-4/5">
+								<div class="card-img">
+									<img src="../images/js.png" alt="" class="cardImg">
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">JavaScript</h1>
+									<p class="card-text">
+										Object-oriented programming language that conforms to the ECMAScript specification.
+									</p>
+								</div>
+							</div>
+							<div class="bg-red-600 card md:w-4/5">
+								<div class="card-img">
+									<img src="../images/angular.jpg" alt="" class="cardImg">
+								</div>
+								<div class="card-body">
+									<h1 class="card-title">Angular</h1>
+									<p class="card-text">
+										A JavaScript-based open-source front-end web framework mainly maintained by Google.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="mt-36 flex flex-col  md:w-1/2 md:mt-0">
+						<div class="bg-white w-16 h-16 rounded-full flex justify-center items-center mb-10">
+							<i class="fas fa-drafting-compass text-gray-500 font-semibold text-	xl"></i>
+						</div>
+						<div class="flex flex-col w-full">
+							<h1 class="text-3xl font-bold text-gray-700">JavaScript Components</h1>
+							<div class="text-lg text-gray-500 mt-4 mb-6 leading-relaxed">
+								<p class="mb-2">
+									In order to create a great User Experience some components require JavaScript. 
+									In this way you can manipulate the elements on the page and give more options to your users.
+								</p>
+								<p>
+									We created a set of Components that are dynamic and come to help you.
+								</p>
+							</div>
+							<div class="flex flex-wrap text-gray-500  py-3 items-center">
+								<button class="serviceBtn">buttons</button>
+								<button class="serviceBtn">inputs</button>
+								<button class="serviceBtn">Labels</button>
+								<button class="serviceBtn">menus</button>
+								<button class="serviceBtn">navbars</button>
+								<button class="serviceBtn">pagination</button>
+								<button class="serviceBtn">Progressbar</button>
+								<button class="serviceBtn">Typography</button>
+							</div>
+							<div>
+								<a href="#" class="flex flex-row items-center">
+									<span class="font-semibold">View All</span>
+									<i class="fa fa-angle-double-right ml-1"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="documentation mt-36 px-16 md:px-32 xl:px-36 2xl:px-64">
+				<div class="flex flex-col md:flex-row justify-between items-center ">
+					<div class="flex flex-col mb-16 md:w-2/5 xl:w-3/5 xl:mr-14">
+						<div class="bg-white w-16 h-16 rounded-full flex  justify-center items-center text-gray-500 mb-7">
+							<i class="fas fa-file-alt text-xl"></i>
+						</div>
+						<h1 class="text-3xl font-semibold opacity-80 mb-3">Complex Documentation</h1>
+						<p class="text-gray-500 mb-8 text-lg">
+							This extension comes a lot of fully coded examples that help you get started faster. 
+							You can adjust the colors and also the programming language. 
+							You can change the text and images and you're good to go.
+						</p>
+						<div class="text-lg text-gray-500">
+							<ul>
+								<li class="flex flex-col mb-3 list-none">
+									<a href="#" class="flex items-center">
+										<span class="mr-3 bg-white w-5 h-5 flex justify-center items-center rounded-full">
+											<i class="fas fa-fingerprint text-xs"></i>
+										</span>
+										<span class="">Built by Developers for Developers</span>
+									</a>
+								</li>
+								<li class="flex flex-col mb-3 list-none">
+									<a href="" class="flex items-center">
+										<span class="mr-3 bg-white w-5 h-5 flex justify-center items-center rounded-full">
+											<i class="fab fa-html5 text-xs"></i>
+										</span>
+										<span class="">Carefully crafted code for Components</span>
+									</a>
+								</li>
+								<li class="flex flex-col mb-3 list-none">
+									<a href="" class="flex items-center">
+										<span class="mr-3 bg-white w-5 h-5 flex justify-center items-center rounded-full">
+											<i class="far fa-paper-plane text-xs"></i>
+										</span>
+										<span class="">Dynamic Javascript Components</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="md:w-2/5 xl:w-3/5">
+						<img src="../images/documentation.png" alt="" class="rounded-lg rotate-3 transform">
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col items-center justify-center text-center mt-36">
+				<h1 class="text-3xl font-bold text-blueGray w-4/5 md:w-3/5 lg:w-1/2">Beautiful Example Pages</h1>
+				<p class="w-4/5 mt-5 text-lg text-gray-500 md:w-3/5 lg:w-1/2">
+					Tailwind Starter Kit is a completly new product built using our past experience in web templates. 
+					Take the examples we made for you and start playing with them.
+				</p>
+			</div>
+		</section>
+		
+		
+		<section class="bg-blueGray block px-14 md:px-20 text-gray-700 min-h-hm sm:min-h-hs lg:min-h-0 lg:pb-40 xl:pb-72">
+			<section class="container mx-auto relative">
+				<div class="flex flex-col justify-center lg:flex-row text-center absolute" style="top: -90px;">
+					<div class="w-full lg:w-3/12 lg:mr-5 flex flex-col justify-center mb-6 lg:mb-0 h-2/6">
+						<h1 class="text-xl font-bold ">Login Page</h1>
+						<div class="mt-4 relative hover:-mt-4">
+							<img src="../images/login.jpg" alt="" class="rounded-lg  ">
+						</div>
+					</div>
+					<div class="w-full lg:w-3/12 lg:mr-5 flex flex-col justify-center mb-6 lg:mb-0 h-2/6">
+						<h1 class="text-xl font-bold">Profile Page</h1>
+						<div class="mt-4 relative hover:-mt-4">
+							<img src="../images/profile.jpg" alt="" class="rounded-lg">
+						</div>
+					</div>
+					<div class="w-full lg:w-3/12 flex flex-col justify-center mb-6 lg:mb-0 ">
+						<h1 class="text-xl font-bold">Landing Page</h1>
+						<div class="mt-4 relative hover:-mt-4">
+							<img src="../images/landing.jpg" alt="" class="rounded-lg">
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		
+		<section class="bg-blueGray pt-96 2xl:pl-64">
+			<div class="flex flex-col lg:flex-row justify-between items-center">
+				<div class="flex flex-col w-2/5 mr-14">
+					<div class="w-14 h-14 bg-white flex justify-center items-center rounded-full">
+						<i class="fas fa-code-branch text-blueGray text-xl"></i>
+					</div>
+
+					<h1 class="text-white font-bold text-3xl my-3">Open Source</h1>
+					<p class="text-gray-400">
+						Since <span class="text-white"> TailwindCSS </span> is an open source project we wanted to continue this movement too. You can give this version a try to feel the design and also test the quality of the code!
+
+						Get it free on Github and please help us spread the news with a Star!
+					</p>
+					<div class=" text-white mt-5 pb-10">
+						<button class="bg-gray-800 uppercase font-extrabold leading-tight text-xs p-3 rounded">github star</button>
+					</div>
+				</div>
+				<div class="w-3/5 relative">
+					<i class="fab fa-github opacity-20" style="font-size: 55em;"></i>
+				</div>
+			</div>
+		</section>
+		<section class="bg-gray-200 overflow-x-hidden  px-10 lg:px-40 xl:px-64 py-5">
+			<div class="flex flex-col justify-center">
+			<div 
+				class="bg-white flex flex-col px-32 py-16 justify-center items-center text-center rounded-lg z-50"
+				style="z-index: 99;"
+			>
+				<div>
+					<span class="text-4xl">😍</span>
+				</div>
+				<h1 class="text-3xl font-bold text-blueGray mb-4">Do you love this Starter Kit?</h1>
+				<p class="text-lg text-gray-500">
+					Cause if you do, it can be yours now. 
+					Hit the buttons below to navigate to get the Free version for your next project. 
+					Build a new web app or give an old project a new look!
+				</p>
+				<div class="flex flex-row items-center text-white mt-4">
+					<button class="bg-pink-500 px-4 py-3 font-bold uppercase text-sm mr-3 rounded">Get Started</button>
+					<button class="bg-blueGray px-4 py-3 rounded">
+						<i class="fab fa-github text-white text-sm"></i>
+						<span class="font-bold uppercase text-sm">help with a star</span>
+					</button>
+				</div>
+			</div>
+			<div class="flex flex-col lg:flex-row lg:justify-between mt-16 mb-4">
+				<div class="flex flex-col items-start">
+					<h1 class="text-3xl text-blueGray font-bold">Let's keep in touch!</h1>
+					<p class="text-blueGray font-medium text-sm">
+						Find us on any of these platforms, we respond 1-2 business days.
+					</p>
+					<div class="flex flex-row items-center my-3">
+						<div class="bg-white w-10 h-10 flex items-center justify-center rounded-full mr-2">
+							<i class="fab fa-twitter text-blue-400 text-lg"></i>
+						</div>
+						<div class="bg-white w-10 h-10 flex items-center justify-center rounded-full mr-2">
+							<i class="fab fa-facebook text-lg text-blue-700"></i>
+						</div>
+						<div class="bg-white w-10 h-10 flex items-center justify-center rounded-full mr-2">
+							<i class="fab fa-dribbble text-lg text-pink-500"></i>
+						</div>
+						<div class="bg-white w-10 h-10 flex items-center justify-center rounded-full">
+							<i class="fab fa-github"></i>
+						</div>
+					</div>
+					<div class="">
+						<span class="text-blueGray font-semibold text-sm">
+							Currently v1.1.0. Code licensed MIT, docs CC BY 4.0.
+						</span>
+					</div>					
+				</div>
+				<div class="flex flex-col">
+					<ul class="text-blueGray font-extrabold text-sm">
+						<li class="flex flex-col mb-1">
+							<span class="text-blueGray uppercase font-bold text-sm">Useful links</span>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">About Us</a>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">Blog</a>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">Github</a>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">Free Products</a>
+						</li>
+					</ul>
+				</div>
+				<div class="flex flex-col mt-3 lg:-mt-0">
+					<ul class="text-blueGray font-extrabold text-sm">
+						<li class="flex flex-col mb-1">
+							<span class="text-blueGray uppercase font-bold text-sm">other ressources</span>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">MIT License</a>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">Terms & Conditions</a>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">Privacy Policy</a>
+						</li>
+						<li class="flex flex-col mb-1">
+							<a href="#" class="">Contact Us</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<footer>
+				<hr class="bg-blueGray opacity-30 00 h-0.5 rounded">
+				<div class="mt-5 flex flex-col items-center justify-center text-blueGray font-bold text-sm">
+					<span class="">Copyright © 2021 Tailwind Starter Kit by Creative Tim.</span>
+				</div>
+			</footer>
+		</div>
+		</section>
+
+
+		<script src="../src/script.js"></script>
+	</body>
+</html>

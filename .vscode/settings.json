@@ -1,0 +1,10 @@
+{
+    "css.lint.unknownAtRules": "ignore",
+    "json.schemas": [
+    ],
+    "launch": {
+    
+        "configurations": [],
+        "compounds": []
+    }
+}
